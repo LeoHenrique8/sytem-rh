@@ -1,12 +1,15 @@
-import React from "react";
-import { Route, Routes } from "react-router-dom";
+import React from 'react';
+import { BrowserRouter as Router, Routes as Rotas, Route as Rota } from 'react-router-dom';
 
-import MainPage from "./pages/Main";
+import MainPage from './pages/Main/index';
 
-export function AppRoutes() {
+
+export default function Routes() {
   return (
-    <Routes>
-      <Route path="/" element={<MainPage />} />
-    </Routes>
+    <Router>
+      <Rotas>
+        <Rota path="/" element={<MainPage />} />
+      </Rotas>
+    </Router>
   );
 }

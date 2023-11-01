@@ -6,7 +6,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   body {
     background: ${(props) => props.theme.colors.gray900};
-    color: ${(props) => props.theme.colors.gray600};
+    color: ${(props) => props.theme.colors.text};
     font-family: ${(props) => props.theme.fontFamily.sans};
 
   }

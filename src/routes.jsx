@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes as Rotas, Route as Rota } from 'react-r
 
 import LoginPage from './pages/LoginPage';
 import MainMenu from './pages/MainMenu';
+import BeneficioDesconto from './pages/MainMenu/BeneficioDesconto';
 
 
 export default function Routes() {
@@ -11,6 +12,7 @@ export default function Routes() {
       <Rotas>
         <Rota path="/" element={<LoginPage />} />
         <Rota path="/mainmenu" element={<MainMenu />} />
+        <Rota path="/beneficiodesconto" element={<BeneficioDesconto />} />
       </Rotas>
     </Router>
   );

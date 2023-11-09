@@ -7,7 +7,7 @@ export const Container = styled.div`
   margin-left: ${props => (props.open ? '0' : '-280px')};
   transition: margin-left 0.8s;
   width: 400px;
-  height: 100%;
+  height: 100vh;
   background-color: #333;
   position: absolute;
   top: 0;

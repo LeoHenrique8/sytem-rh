@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { Container, MenuList, MenuItem, MenuLink, BeneficioDescontoIcon, ItemLabel, FuncionarioIcon, EmpresaIcon, FolhaIcon, ReturnIcon, Profile, Photo, Nome, Cargo, ProfileBox, Thumbnail, MenuButton} from './style'
+import { Container, MenuList, MenuItem, MenuLink, BeneficioDescontoIcon, ItemLabel, FuncionarioIcon, EmpresaIcon, FolhaIcon, ReturnIcon, Profile, Photo, Nome, Cargo, ProfileBox, Thumbnail} from './style'
 import userImage from '../../../Images/download.jpeg'
 
 
@@ -20,7 +20,7 @@ function SideBar() {
 
   return (
     <Container open={menuOpen} prop={menuOpen}  onMouseLeave={toggleMenu} onMouseEnter={toggleMenu}>
-      <MenuButton>Menu</MenuButton>
+   
       <ProfileBox>
         <Profile>
           <Photo src={userImage} />
